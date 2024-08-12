@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "qwertied-resoursepack-mod",
+	"version": "${version}",
+	"name": "Qwertied Resourcepack Mod",
+	"description": "Мод для автоматического обновления ресурспака из GitHub",
+	"authors": [
+		"qwertied"
+	],
+	"contact": {
+		"homepage": "https://github.com/qwertied/qwertied_rp_mod",
+		"sources": "https://github.com/qwertied/qwertied_rp_mod"
+	},
+	"license": "MIT",
+	"icon": "assets/qwertied-resoursepack-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"qwertied.mod.QwertiedResoursepackMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
